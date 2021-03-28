@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h5>Дополнительно в начале страницы добавить любой текст, который будет отдаваться на уровне сервера nuxt.js</h5>
     <div style="display: flex">
       <div>
         <select v-model="from" v-if="cities" @change="getPrice">
